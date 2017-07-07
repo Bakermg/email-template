@@ -1,0 +1,110 @@
+// Global
+body,
+html, {
+  letter-spacing: 0.2px;
+  background-color: #eeeeee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  letter-spacing: 0.2px;
+}
+
+p.greeting {
+  font-weight: 600;
+}
+
+p.dropcap:first-letter {
+    float: left;
+    color: #E60000;
+    font-size: 48px;
+    line-height: 0.8;
+    padding: 2px 8px 5px 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+a {
+  text-decoration: underline;
+}
+
+// Typography
+.message {
+  letter-spacing: 1.1px;
+  line-height: 0.94;
+  font-weight: bold;
+}
+.message-alt {
+  letter-spacing: 1px;
+  line-height: 1.63;
+  font-weight: 300;
+}
+.small {
+  font-size: 13px;
+  line-height: 1.77;
+  letter-spacing: 0.2px;
+}
+.small a {
+  color: #333;
+}
+.social {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: 1;
+  text-transform: uppercase;
+}
+
+// Img 
+th img.avatar {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+a .social-img {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  margin-right: 5px !important;
+  margin-left: 10px;
+}
+
+.logo-header {
+  height: 38px;
+  width: 170px;
+  object-fit: contain;
+}
+
+// Buttons 
+a.score-btn {
+  padding: 14px 47px 14px 47px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+table.button table td a {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 47px;
+}
+
+//Grid
+table, tr, td .text-middle {
+  vertical-align: middle;
+}
+.text-middle {
+  display: inline-block;
+  padding: 0 0 50px 10px!important;
+}
+.gray-rule {
+  color: #eeeeee;
+}
+.gray {
+  background-color: #eeeeee;
+}
