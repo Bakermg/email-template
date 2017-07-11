@@ -24,15 +24,16 @@ p.greeting {
   font-weight: 600;
 }
 
-p.dropcap:first-letter {
-    float: left;
-    color: #E60000;
-    font-size: 48px;
-    line-height: 0.8;
-    padding: 2px 8px 5px 0;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-}
+.dropcap{
+      float: left;
+      color: #e60000;
+      font-size: 48px;
+      line-height: 33px;
+      padding: 10px 10px 0 0;
+      font-family: 'Lato', 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+
 a {
   text-decoration: underline;
 }
@@ -63,6 +64,7 @@ a {
   font-size: 13px;
   line-height: 1.77;
   letter-spacing: 0.2px;
+  text-align: center !important;
 }
 .small a {
   color: #333;
