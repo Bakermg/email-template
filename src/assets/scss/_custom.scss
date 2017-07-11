@@ -5,7 +5,12 @@ html, {
   background-color: #eeeeee;
 }
 body {
-  background-color: #EEEEEE !important;
+  background-color: #eeeeee !important;
+}
+
+.center-fix {
+  width: 100%;
+  table-layout: fixed;
 }
 
 h1,
@@ -13,29 +18,38 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  letter-spacing: 0.2px;
+  line-height: 1.63;
+  color: $black-font;
+}
 p {
   letter-spacing: 0.2px;
   line-height: 1.63;
-  color: #4a4a4a;
+  color: $black-font;
+  .greeting {
+    font-weight: 600;
+  }
+  .dropcap{
+        float: left;
+        color: $red;
+        font-size: 48px;
+        line-height: 33px;
+        padding: 10px 10px 0 0;
+        font-family: 'Lato', 'Open Sans', sans-serif;
+        font-weight: bold;
+      }
 }
-
-p.greeting {
-  font-weight: 600;
-}
-
-.dropcap{
-      float: left;
-      color: #e60000;
-      font-size: 48px;
-      line-height: 33px;
-      padding: 10px 10px 0 0;
-      font-family: 'Lato', 'Open Sans', sans-serif;
-      font-weight: bold;
-    }
 
 a {
   text-decoration: underline;
+  .social-img {
+    width: 44px !important;
+    height: 44px !important;
+    display: inline-block;
+    margin-right: 5px !important;
+    margin-left: 8px;
+  }
 }
 
 // Typography
@@ -58,7 +72,7 @@ a {
   font-size: 17px;
   font-weight: bold;
   letter-spacing: 1.1px;
-  color: #e60000;
+  color: $red;
 }
 .small {
   font-size: 13px;
@@ -79,64 +93,56 @@ a {
 .title {
   font-size: 22px;
   font-weight: bold;
-  line-height: 0.73;
+  line-height: 1;
   letter-spacing: 1px;
-  color: #2b2b2b;
+  color: $title-font;
 }
 .title-second {
   font-size: 20px;
   font-weight: normal;
-  line-height: 0.73;
+  line-height: 1;
   letter-spacing: 1px;
-  color: #2b2b2b;
+  color: $title-font;
 }
 
-// Img 
+// Img
 th img.avatar {
   height: 60px;
   width: 60px;
   display: inline-block;
 }
 
-a .social-img {
-  width: 44px;
-  height: 44px;
-  display: inline-block;
-  margin-right: 5px !important;
-  margin-left: 10px;
-}
-
 .logo-header {
-  height: 38px;
-  width: 170px;
+  height: 38px !important;
+  width: 170px !important;
   object-fit: contain;
 }
 
-// Buttons 
-a.score-btn {
-  padding: 14px 47px 14px 47px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-}
-table.button table td a {
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  padding: 14px 47px;
+table {
+  tr, td {
+    .text-middle {
+      vertical-align: middle;
+      display: inline-block;
+      padding: 0 0 50px 10px !important;
+    }
+  }
+  .button {
+     table {
+       td {
+         a {
+           font-size: 16px;
+           border: none;
+           border-radius: 5px; 
+           padding: 14px 47px;
+         }
+       }
+    }
+  }
 }
 
-//Grid
-table, tr, td .text-middle {
-  vertical-align: middle;
-}
-.text-middle {
-  display: inline-block;
-  padding: 0 0 50px 10px!important;
-}
 .gray-rule {
-  color: #eeeeee;
+  color: $light-gray;
 }
 .gray {
-  background-color: #eeeeee;
+  background-color: $light-gray;
 }
