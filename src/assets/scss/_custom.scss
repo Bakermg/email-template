@@ -1,6 +1,6 @@
 // Global
 body,
-html, {
+html {
   letter-spacing: 0.2px;
   background-color: #eeeeee;
 }
@@ -60,6 +60,7 @@ a {
 }
 .message {
   letter-spacing: 1.1px;
+  text-transform: uppercase;
   line-height: 0.94;
   font-weight: bold;
 }
@@ -100,6 +101,7 @@ a {
 .title-second {
   font-size: 20px;
   font-weight: normal;
+  text-transform: uppercase;
   line-height: 1;
   letter-spacing: 1px;
   color: $title-font;
@@ -126,6 +128,8 @@ table {
       padding: 0 0 50px 10px !important;
     }
   }
+
+  // Global Buttons styles
   .button {
      table {
        td {
@@ -138,6 +142,11 @@ table {
        }
     }
   }
+}
+
+.extra-padding {
+  padding-left: 65px !important;
+  padding-right: 65px !important;
 }
 
 .gray-rule {
