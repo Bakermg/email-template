@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f2f1691-22c2-4824-a6a8-9aec9dc819e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/_newsletter.scss" afterPath="$PROJECT_DIR$/src/assets/scss/_newsletter.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/app.scss" afterPath="$PROJECT_DIR$/src/assets/scss/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/default.html" afterPath="$PROJECT_DIR$/src/layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/newsletter.html" afterPath="$PROJECT_DIR$/src/pages/newsletter.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,15 +17,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="newsletter.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newsletter.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/newsletter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="433">
+              <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
               <folding>
-                <element signature="e#3668#3673#0" expanded="true" />
-                <element signature="e#5026#5031#0" expanded="true" />
-                <element signature="e#5705#5710#0" expanded="true" />
+                <element signature="e#3833#3838#0" expanded="true" />
+                <element signature="e#5191#5196#0" expanded="true" />
+                <element signature="e#5870#5875#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_newsletter.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_newsletter.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/_newsletter.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="108" column="18" lean-forward="false" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+            <state relative-caret-position="428">
+              <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -141,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/layouts/default.html" />
         <option value="$PROJECT_DIR$/src/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/pages/newsletter.html" />
         <option value="$PROJECT_DIR$/src/assets/scss/_newsletter.scss" />
+        <option value="$PROJECT_DIR$/src/pages/newsletter.html" />
       </list>
     </option>
   </component>
@@ -163,8 +159,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1251" />
-    <option name="y" value="39" />
+    <option name="x" value="1284" />
+    <option name="y" value="129" />
     <option name="width" value="1457" />
     <option name="height" value="1311" />
   </component>
@@ -277,15 +273,15 @@
       <option name="presentableId" value="Default" />
       <updated>1502720845483</updated>
       <workItem from="1502720858454" duration="27641000" />
-      <workItem from="1503066928260" duration="13938000" />
+      <workItem from="1503066928260" duration="15723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41579000" />
+    <option name="totallyTimeSpent" value="43364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1251" y="39" width="1457" height="1311" extended-state="0" />
+    <frame x="1284" y="129" width="1457" height="1311" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -324,9 +320,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3668#3673#0" expanded="true" />
-            <element signature="e#5026#5031#0" expanded="true" />
-            <element signature="e#5705#5710#0" expanded="true" />
+            <element signature="e#3833#3838#0" expanded="true" />
+            <element signature="e#5191#5196#0" expanded="true" />
+            <element signature="e#5870#5875#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -515,23 +511,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/newsletter.html">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/_newsletter.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#3668#3673#0" expanded="true" />
-            <element signature="e#5026#5031#0" expanded="true" />
-            <element signature="e#5705#5710#0" expanded="true" />
-          </folding>
+          <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/_newsletter.scss">
+    <entry file="file://$PROJECT_DIR$/src/pages/newsletter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="108" column="18" lean-forward="false" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="433">
+          <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding>
+            <element signature="e#3833#3838#0" expanded="true" />
+            <element signature="e#5191#5196#0" expanded="true" />
+            <element signature="e#5870#5875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
