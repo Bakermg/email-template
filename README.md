@@ -46,7 +46,7 @@ Then open the folder in your command line, and install the needed dependencies:
 ```bash
 cd projectname
 npm install
-```
+`
 
 ## Build Commands
 

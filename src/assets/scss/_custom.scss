@@ -7,6 +7,9 @@ html {
 body {
   background-color: #eeeeee !important;
 }
+u + .body{
+  min-width:100vw !important;
+}
 
 .center-fix {
   width: 100%;
@@ -154,4 +157,10 @@ table {
 }
 .gray {
   background-color: $light-gray;
+}
+.white-background {
+  background-color: #FFFFFF;
+}
+.thirty {
+  padding: 15px 0 !important;
 }
